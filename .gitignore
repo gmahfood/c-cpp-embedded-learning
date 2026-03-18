@@ -1,0 +1,6 @@
+# Compiled binaries
+basics/HelloWorld
+*.o
+*.out
+*.exe
+*.dSYM/
