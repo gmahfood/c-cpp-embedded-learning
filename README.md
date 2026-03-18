@@ -1,20 +1,20 @@
 # C/C++ Embedded Systems Learning Journey 🔧
 
-> Learning C/C++ embedded systems — following K&R, Jacob Sorber, and building toward bare-metal development.
+> Learning C/C++ from the ground up with embedded systems as the goal — following K&R, Jacob Sorber, and building toward bare-metal development.
 
 ---
 
 ## 👋 About This Repo
 
-This is my personal learning repository documenting my C journey to embedded systems development. I'm working toward writing firmware, understanding microcontrollers at the bare-metal level, and eventually developing real embedded projects.
+This is my personal learning repository documenting my journey from little C knowledge to embedded systems development. I'm working toward writing firmware, understanding microcontrollers at the bare-metal level, and eventually developing real embedded projects.
 
 ---
 
 ## 🗺️ Roadmap
 
 ### Phase 1 — C Fundamentals *(current)*
-- [ ] Variables, data types, operators
-- [ ] Control flow (if, loops, switch)
+- [x] Variables, data types, operators
+- [x] Control flow (if, loops, switch)
 - [ ] Functions and scope
 - [ ] Arrays and strings
 - [ ] Pointers and memory
@@ -107,7 +107,8 @@ clang filename.c -o filename && ./filename
 
 | Date | Milestone |
 |------|-----------|
-| 2026-03 | Repo created, Hello World running |
+| 2026-03-17 | Repo created, Hello World running |
+| 2026-03-17 | Temperature conversion table — K&R Chapter 1 (variables, while loop, printf format specifiers, integer division) |
 
 ---
 
@@ -119,4 +120,5 @@ clang filename.c -o filename && ./filename
 
 ---
 
+*Learning in public. Mistakes will be made. That's the point.*
 *Learning in public. Mistakes will be made. That's the point.*
