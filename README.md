@@ -1,12 +1,12 @@
 # C/C++ Embedded Systems Learning Journey 🔧
 
-> Intermediate C++ developer focusing on C and embedded systems — learning bare-metal development with K&R, Jacob Sorber, and real hardware.
+> Intermediate C++ developer focusing on C and embedded systems, learning bare-metal development with K&R, Jacob Sorber, and real hardware.
 
 ---
 
 ## 👋 About This Repo
 
-This is my personal learning repository documenting my journey through C and embedded systems development. I have an intermediate C++ background and am now focusing on mastering C and writing real firmware — understanding microcontrollers at the bare-metal level and building toward production-ready embedded projects.
+This is my personal learning repository documenting my journey through C and embedded systems development. I have an intermediate C++ background and am now focusing on mastering C and writing real firmware, understanding microcontrollers at the bare-metal level and building toward production-ready embedded projects.
 
 ---
 
@@ -47,7 +47,7 @@ This is my personal learning repository documenting my journey through C and emb
 - [ ] Bootloaders
 
 ### Phase 5 — Real Projects
-- [ ] Sensor data logger
+- [x] Sensor data logger — refer to dht11-fsm-dashboard 
 - [ ] Motor controller
 - [ ] Custom bootloader
 
@@ -119,8 +119,9 @@ clang filename.c -o filename && ./filename
 | 2026-03-18 | Character counter — K&R Chapter 1 (getchar, EOF, long vs int, byte-by-byte input reading) |
 | 2026-03-19 | Line counter — K&R Chapter 1 (if statements, character comparison, char vs int, newline detection) |
 | 2026-03-19 | Learned how Git commits and contributions work — committing files separately for granular history |
-| 2026-03-29 | Digit counter — K&R Chapter 1 (arrays, for loops, ASCII arithmetic, array initialization) |
 | 2026-03-23 | Word counter — K&R Chapter 1 (state machines, #define constants, multi-counter input parsing) |
+| 2026-03-29 | Renamed repo to c-cpp-embedded-learning, added cpp/ folder, updated README to reflect C++ background |
+| 2026-03-29 | Digit counter — K&R Chapter 1 (arrays, for loops, ASCII arithmetic, array initialization) |
 
 ---
 
