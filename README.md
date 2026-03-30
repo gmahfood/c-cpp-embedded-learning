@@ -19,6 +19,7 @@ This is my personal learning repository documenting my journey through C and emb
 - [x] Character input, getchar(), EOF, and data type sizing
 - [x] If statements, character comparison, newline detection
 - [x] State machines, #define constants, word/line/character parsing
+- [x] Arrays, for loops, ASCII arithmetic, array initialization
 - [ ] Functions and scope
 - [ ] Arrays and strings
 - [ ] Pointers and memory
@@ -118,6 +119,7 @@ clang filename.c -o filename && ./filename
 | 2026-03-18 | Character counter — K&R Chapter 1 (getchar, EOF, long vs int, byte-by-byte input reading) |
 | 2026-03-19 | Line counter — K&R Chapter 1 (if statements, character comparison, char vs int, newline detection) |
 | 2026-03-19 | Learned how Git commits and contributions work — committing files separately for granular history |
+| 2026-03-29 | Digit counter — K&R Chapter 1 (arrays, for loops, ASCII arithmetic, array initialization) |
 | 2026-03-23 | Word counter — K&R Chapter 1 (state machines, #define constants, multi-counter input parsing) |
 
 ---
