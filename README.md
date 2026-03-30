@@ -1,12 +1,12 @@
 # C/C++ Embedded Systems Learning Journey 🔧
 
-> Learning C/C++ from the ground up with embedded systems as the goal — following K&R, Jacob Sorber, and building toward bare-metal development.
+> Intermediate C++ developer focusing on C and embedded systems — learning bare-metal development with K&R, Jacob Sorber, and real hardware.
 
 ---
 
 ## 👋 About This Repo
 
-This is my personal learning repository documenting my journey from little C knowledge to embedded systems development. I'm working toward writing firmware, understanding microcontrollers at the bare-metal level, and eventually developing real embedded projects.
+This is my personal learning repository documenting my journey through C and embedded systems development. I have an intermediate C++ background and am now focusing on mastering C and writing real firmware — understanding microcontrollers at the bare-metal level and building toward production-ready embedded projects.
 
 ---
 
@@ -55,11 +55,12 @@ This is my personal learning repository documenting my journey from little C kno
 ## 📁 Repo Structure
 
 ```
-c-embedded-learning/
-├── basics/          # Variables, loops, functions, control flow
-├── pointers/        # Pointers, arrays, memory management
+c-cpp-embedded-learning/
+├── basics/          # C fundamentals — pointers, memory, bitwise
+├── pointers/        # Deep dives into pointer mechanics
 ├── structs/         # Structs, enums, unions
 ├── files/           # File I/O
+├── cpp/             # Embedded C++ examples
 └── projects/        # Small complete programs
 ```
 
@@ -124,7 +125,7 @@ clang filename.c -o filename && ./filename
 ## 📝 Notes
 
 - All code written and tested on **macOS (Apple Silicon)**
-- Starting from **zero C knowledge**
+- Intermediate C++ background — focused on C and embedded fundamentals
 - Goal: bare-metal embedded firmware development
 
 ---
