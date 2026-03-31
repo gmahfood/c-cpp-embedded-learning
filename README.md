@@ -21,7 +21,8 @@ This is my personal learning repository documenting my journey through C and emb
 - [x] State machines, #define constants, word/line/character parsing
 - [x] Arrays, for loops, ASCII arithmetic, array initialization
 - [x] Functions, prototypes, return values, local scope
-- [ ] Arguments and call by value
+- [x] Call by value, local copies, foundation for pointers
+- [ ] Pointers and memory
 - [ ] Arrays and strings
 - [ ] Pointers and memory
 - [ ] Structs, enums, unions
@@ -124,6 +125,7 @@ clang filename.c -o filename && ./filename
 | 2026-03-29 | Renamed repo to c-cpp-embedded-learning, added cpp/ folder, updated README to reflect C++ background |
 | 2026-03-29 | Digit counter — K&R Chapter 1 (arrays, for loops, ASCII arithmetic, array initialization) |
 | 2026-03-30 | Functions example — K&R Chapter 1 (function definitions, prototypes, return values, local scope) |
+| 2026-03-30 | Call by value — K&R Chapter 1 (pass by value, local copies, foundation for pointers) |
 
 ---
 
