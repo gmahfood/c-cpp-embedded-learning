@@ -1,12 +1,12 @@
 # C/C++ Embedded Systems Learning Journey 🔧
 
-> Intermediate C++ developer focusing on C and embedded systems, learning bare-metal development with K&R, Jacob Sorber, and real hardware.
+> Intermediate C++ developer focusing on C and embedded systems — learning bare-metal development with K&R, Jacob Sorber, and real hardware.
 
 ---
 
 ## 👋 About This Repo
 
-This is my personal learning repository documenting my journey through C and embedded systems development. I have an intermediate C++ background and am now focusing on mastering C and writing real firmware, understanding microcontrollers at the bare-metal level and building toward production-ready embedded projects.
+This is my personal learning repository documenting my journey through C and embedded systems development. I have an intermediate C++ background and am now focusing on mastering C and writing real firmware — understanding microcontrollers at the bare-metal level and building toward production-ready embedded projects.
 
 ---
 
@@ -20,7 +20,8 @@ This is my personal learning repository documenting my journey through C and emb
 - [x] If statements, character comparison, newline detection
 - [x] State machines, #define constants, word/line/character parsing
 - [x] Arrays, for loops, ASCII arithmetic, array initialization
-- [ ] Functions and scope
+- [x] Functions, prototypes, return values, local scope
+- [ ] Arguments and call by value
 - [ ] Arrays and strings
 - [ ] Pointers and memory
 - [ ] Structs, enums, unions
@@ -47,7 +48,7 @@ This is my personal learning repository documenting my journey through C and emb
 - [ ] Bootloaders
 
 ### Phase 5 — Real Projects
-- [x] Sensor data logger — refer to dht11-fsm-dashboard 
+- [ ] Sensor data logger
 - [ ] Motor controller
 - [ ] Custom bootloader
 
@@ -122,6 +123,7 @@ clang filename.c -o filename && ./filename
 | 2026-03-23 | Word counter — K&R Chapter 1 (state machines, #define constants, multi-counter input parsing) |
 | 2026-03-29 | Renamed repo to c-cpp-embedded-learning, added cpp/ folder, updated README to reflect C++ background |
 | 2026-03-29 | Digit counter — K&R Chapter 1 (arrays, for loops, ASCII arithmetic, array initialization) |
+| 2026-03-30 | Functions example — K&R Chapter 1 (function definitions, prototypes, return values, local scope) |
 
 ---
 
