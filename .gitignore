@@ -4,3 +4,4 @@ basics/HelloWorld
 *.out
 *.exe
 *.dSYM/
+.DS_Store
