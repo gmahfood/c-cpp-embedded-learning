@@ -23,6 +23,7 @@ This is my personal learning repository documenting my journey through C and emb
 - [x] Functions, prototypes, return values, local scope
 - [x] Call by value, local copies, foundation for pointers
 - [x] Character arrays, strings, null terminator, get_line, copy
+- [x] External variables, global scope, extern keyword
 - [ ] Pointers and memory
 - [ ] Arrays and strings
 - [ ] Pointers and memory
@@ -128,6 +129,8 @@ clang filename.c -o filename && ./filename
 | 2026-03-30 | Functions example — K&R Chapter 1 (function definitions, prototypes, return values, local scope) |
 | 2026-03-30 | Call by value — K&R Chapter 1 (pass by value, local copies, foundation for pointers) |
 | 2026-04-02 | Character arrays — K&R Chapter 1 (strings, null terminator, get_line, copy function) |
+| 2026-04-02 | External variables — K&R Chapter 1 (global variables, scope, extern keyword) |
+| 2026-04-02 | Completed K&R Chapter 1 |
 
 ---
 
