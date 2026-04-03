@@ -22,6 +22,7 @@ This is my personal learning repository documenting my journey through C and emb
 - [x] Arrays, for loops, ASCII arithmetic, array initialization
 - [x] Functions, prototypes, return values, local scope
 - [x] Call by value, local copies, foundation for pointers
+- [x] Character arrays, strings, null terminator, get_line, copy
 - [ ] Pointers and memory
 - [ ] Arrays and strings
 - [ ] Pointers and memory
@@ -126,10 +127,23 @@ clang filename.c -o filename && ./filename
 | 2026-03-29 | Digit counter — K&R Chapter 1 (arrays, for loops, ASCII arithmetic, array initialization) |
 | 2026-03-30 | Functions example — K&R Chapter 1 (function definitions, prototypes, return values, local scope) |
 | 2026-03-30 | Call by value — K&R Chapter 1 (pass by value, local copies, foundation for pointers) |
+| 2026-04-02 | Character arrays — K&R Chapter 1 (strings, null terminator, get_line, copy function) |
 
 ---
 
-## 📝 Notes
+## 💬 Code Style Notes
+
+### Comment Style: `/* */` vs `//`
+
+Both are valid in modern C (C99 and later). This repo uses `/* */` intentionally:
+
+- **Historical** — `//` was not part of the original C standard (C89/C90). Older embedded codebases and hardware vendor code use `/* */` exclusively.
+- **Portability** — some embedded toolchains target C89/C90 for maximum compiler compatibility. Older or stripped down compilers may not support `//` at all.
+- **Convention** — FreeRTOS, STM32 HAL, MISRA C compliant code, and most vendor libraries all use `/* */` style. Getting used to it now makes reading real embedded codebases feel natural later.
+
+For modern projects targeting C99 or C11, `//` is perfectly fine.
+
+---
 
 - All code written and tested on **macOS (Apple Silicon)**
 - Intermediate C++ background — focused on C and embedded fundamentals
