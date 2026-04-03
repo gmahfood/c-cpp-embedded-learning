@@ -149,7 +149,7 @@ For modern projects targeting C99 or C11, `//` is perfectly fine.
 ---
 
 - All code written and tested on **macOS (Apple Silicon)**
-- Intermediate C++ background — focused on C and embedded fundamentals
+- Intermediate C++ background, focused on C and embedded fundamentals
 - Goal: bare-metal embedded firmware development
 
 ---
