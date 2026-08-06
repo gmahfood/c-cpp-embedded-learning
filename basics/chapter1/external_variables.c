@@ -18,13 +18,13 @@
 
 #define MAXLINE 1000
 
-/* These are EXTERNAL variables — defined outside any function.
+/* These are EXTERNAL variables, defined outside any function.
  * They are automatically initialized to zero.
  * Any function in this file can read and write them directly.
  * In embedded you will see this pattern for interrupt flags:
  *   volatile int uart_data_ready = 0;
  * The volatile keyword tells the compiler not to optimize
- * away reads/writes — critical when hardware can change the value. */
+ * away reads/writes, critical when hardware can change the value. */
 int max;
 char line[MAXLINE];
 char longest[MAXLINE];
@@ -54,7 +54,7 @@ int main() {
 
 /* Notice get_line and copy no longer need parameters.
  * They read and write the external variables directly.
- * This is convenient but comes at a cost — these functions
+ * This is convenient but comes at a cost, these functions
  * are now tightly coupled to those globals. They cannot be
  * reused in another program without bringing the globals along. */
 int get_line(void) {
@@ -91,7 +91,7 @@ void copy(void) {
  *
  * THINGS TO TRY:
  *   1. Type a few lines and verify the longest is printed
- *   2. Compare this to char_arrays.c — same program, different approach
+ *   2. Compare this to char_arrays.c , same program, different approach
  *   3. Notice how removing parameters makes the functions less reusable
  *      that tradeoff is worth understanding before using globals in embedded
  */
