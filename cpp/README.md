@@ -27,3 +27,14 @@ comment explaining what it proves.
   including early return, with no manual cleanup call.
 - `raii-heap-ownership.cpp` — RAII guarding real heap memory; the early return
   that leaks with a raw pointer is leak-proof when an object owns the memory.
+
+  **04 — Pointers, references, const**
+- Pointer basics: `*p` reads/writes the value at an address; `p = &y`
+  re-aims the pointer. Star vs no-star is the whole distinction.
+- References as aliases: bound once, never re-seated, never null.
+- const with pointers: `const int*` locks the value, `int* const` locks
+  the pointer. Read right to left.
+
+**07 — Cold-handwritten drills**
+- `add.cpp`, `max_of.cpp`, `is_even.cpp` — cold-generation reps, written
+  by hand with no AI. Focus: return statements, brace matching, `==` vs `=`.
