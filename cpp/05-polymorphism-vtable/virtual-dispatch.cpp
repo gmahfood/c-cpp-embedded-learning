@@ -1,3 +1,8 @@
+// Demonstrates: virtual dispatch. A base pointer (Animal*) calls the actual
+// object's version (Dog/Cat), decided at RUNTIME via the vtable, not the
+// pointer's declared type. Remove 'virtual' and it prints the base version
+// twice. Chain: object -> vptr -> vtable -> function.
+
 #include <iostream>
 
 class Animal {
