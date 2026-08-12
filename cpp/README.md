@@ -35,6 +35,19 @@ comment explaining what it proves.
 - const with pointers: `const int*` locks the value, `int* const` locks
   the pointer. Read right to left.
 
+  **05 — Polymorphism and vtables**
+- `virtual-dispatch.cpp` — base pointer calls the actual object's method,
+  resolved at runtime via the vtable. Remove `virtual` and the base version
+  runs instead. Chain: object → vptr → vtable → function.
+
+  **06 — Embedded specifics**
+- `bit-manipulation.cpp` — set/clear/toggle/test a single bit with masks.
+  `(1 << n)` builds the mask; OR sets, AND-NOT clears, XOR toggles, AND tests.
+- `volatile-register-wait.cpp` — memory-mapped register access; why a wait
+  loop hangs forever without `volatile`. Freshness, not thread-safety.
+- `isr-flag-pattern.cpp` — ISR sets a flag, main loop does the real work.
+  Shared flag is `volatile`. Keep ISRs short to minimize interrupt latency.
+
 **07 — Cold-handwritten drills**
 - `add.cpp`, `max_of.cpp`, `is_even.cpp` — cold-generation reps, written
   by hand with no AI. Focus: return statements, brace matching, `==` vs `=`.
