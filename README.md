@@ -61,12 +61,13 @@ This is my personal learning repository documenting my journey through C and emb
 
 ```
 c-cpp-embedded-learning/
-├── basics/          # C fundamentals — pointers, memory, bitwise
-├── pointers/        # Deep dives into pointer mechanics
-├── structs/         # Structs, enums, unions
-├── files/           # File I/O
-├── cpp/             # Embedded C++ examples
-└── projects/        # Small complete programs
+├── basics/                  # C fundamentals — pointers, memory, bitwise
+├── pointers/                # Deep dives into pointer mechanics
+├── structs/                 # Structs, enums, unions
+├── files/                   # File I/O
+├── cpp/                     # Embedded C++ examples
+├── cpp-crash-course-book/   # Drills from *C++ Crash Course* (Lospinoso)
+└── projects/                # Small complete programs
 ```
 
 ---
@@ -131,6 +132,7 @@ clang filename.c -o filename && ./filename
 | 2026-04-02 | Character arrays — K&R Chapter 1 (strings, null terminator, get_line, copy function) |
 | 2026-04-02 | External variables — K&R Chapter 1 (global variables, scope, extern keyword) |
 | 2026-04-02 | Completed K&R Chapter 1 |
+| 2026-08-21 | Started *C++ Crash Course* (Lospinoso) drills in cpp-crash-course-book/ — absolute_value and sum functions (Ch. 1), Operation enum for a calculator (Ch. 2) |
 
 ---
 
