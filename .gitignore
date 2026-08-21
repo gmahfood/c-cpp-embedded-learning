@@ -1,5 +1,6 @@
 # Compiled binaries
 basics/HelloWorld
+cpp-crash-course-book/01-up-and-running/1-1-absolute-value
 *.o
 *.out
 *.exe
