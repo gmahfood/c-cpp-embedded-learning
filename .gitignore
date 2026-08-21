@@ -1,6 +1,11 @@
 # Compiled binaries
 basics/HelloWorld
-cpp-crash-course-book/01-up-and-running/1-1-absolute-value
+# cpp-crash-course-book drills compile to extensionless binaries next to
+# their source (see .vscode/tasks.json); ignore everything in that folder
+# except directories and files that actually have an extension.
+cpp-crash-course-book/**
+!cpp-crash-course-book/**/
+!cpp-crash-course-book/**/*.*
 *.o
 *.out
 *.exe
