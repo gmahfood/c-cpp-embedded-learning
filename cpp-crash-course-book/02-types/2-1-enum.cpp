@@ -4,7 +4,7 @@
 
 #include <cstdio>
 
-enum Operation {
+enum class Operation {
     Add,
     Subtract,
     Multiply,

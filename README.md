@@ -132,7 +132,7 @@ clang filename.c -o filename && ./filename
 | 2026-04-02 | Character arrays — K&R Chapter 1 (strings, null terminator, get_line, copy function) |
 | 2026-04-02 | External variables — K&R Chapter 1 (global variables, scope, extern keyword) |
 | 2026-04-02 | Completed K&R Chapter 1 |
-| 2026-08-21 | Started *C++ Crash Course* (Lospinoso) drills in cpp-crash-course-book/ — absolute_value and sum functions (Ch. 1), Operation enum for a calculator (Ch. 2) |
+| 2026-08-21 | Started *C++ Crash Course* (Lospinoso) drills in cpp-crash-course-book/ — absolute_value and sum functions (Ch. 1), Operation enum and a Calculator struct built on it (Ch. 2) |
 
 ---
 

@@ -22,5 +22,8 @@ that produces them).
 
 ### 02 — Types
 
-- `2-1-enum.cpp` — `enum Operation` with `Add`, `Subtract`, `Multiply`,
+- `2-1-enum.cpp` — `enum class Operation` with `Add`, `Subtract`, `Multiply`,
   `Divide` values.
+- `2-2-calculator.cpp` — `struct Calculator` holds an `Operation`, set via
+  constructor; `calculate(int, int)` switches on it and guards
+  divide-by-zero.
