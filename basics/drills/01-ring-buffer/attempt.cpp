@@ -10,28 +10,24 @@
 
 int buf[4];
 int head = 0;
-int tail = 0;
 
-int push(int) {
-  while (head > 4)
-    head ++;
-}
-
-int pop() {
-  while (push(0)) {
-    tail ++;
+void push(int value) {
+  buf[head] = value;
+  head = head + 1;
+  if (head == 4) {
+    head = 0;
   }
 }
 
 int main() {
-push(0);
-  std::cout << head << std::endl;
-push(1);
-  std::cout << head << std::endl;
-push(2);
-  std::cout << head << std::endl;
-push(3);
-  std::cout << head << std::endl;
-push(4);
-  std::cout << head << std::endl;
+  push(10);
+  push(20);
+  push(30);
+  push(40);
+  push(50);
+
+  for (int i = 0; i < 4; i = i + 1) {
+    std::cout << buf[i] << " ";
+  }
+  std::cout << "head=" << head << std::endl;
 }
